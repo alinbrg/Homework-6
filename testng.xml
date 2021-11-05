@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" thread-count="3" parallel="tests">
+
+    <test name="NegativeReg" parallel="tests" >
+        <classes>
+            <class name="PositiveRegistration" />
+        </classes>
+    </test>
+
+    <test name="PositiveReg" parallel="tests" >
+        <classes>
+            <class name="NegativeRegistration" />
+        </classes>
+    </test>
+</suite>
