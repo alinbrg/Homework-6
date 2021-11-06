@@ -2,13 +2,13 @@
 
 <suite name="Automation Suite" thread-count="3" parallel="tests">
 
-    <test name="NegativeReg" parallel="tests" >
+    <test name="TestSuite_1" parallel="tests" >
         <classes>
             <class name="PositiveRegistration" />
         </classes>
     </test>
 
-    <test name="PositiveReg" parallel="tests" >
+    <test name="TestSuite_2cd" parallel="tests" >
         <classes>
             <class name="NegativeRegistration" />
         </classes>
